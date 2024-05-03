@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="KeyDesign">
+    <meta name="description" content="RedEssence - App Landing Page">
+    <meta name="keywords" content="RedEssence">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+
+    <!-- SITE TITLE -->
+    <title>RedEssence</title>
+
+
+    <!-- WEB FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700" rel="stylesheet" type="text/css">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- JQUERY -->
+    <script async="" src="js/analytics.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- PRELOADER -->
+    <div id="preloader"><img src="images/logo.png" alt=""></div>
+
+    <!-- Background Audio-->
+
+    <input style="display: none" value="private" name="switch" id="switch" type="checkbox" class="switch"
+        checked="checked">
+    <label style="display: none" for="switch">
+        <span class="switch-x-text">Sound </span>
+        <span class="switch-x-toggletext">
+            <span class="switch-x-unchecked"><span class="switch-x-hiddenlabel">Unchecked: </span>Off</span>
+            <span class="switch-x-checked"><span class="switch-x-hiddenlabel">Checked: </span>On</span>
+        </span>
+    </label>
+
+
+    <!-- MAIN NAV -->
+    <a id="main-nav" href="#sidr"><span class='bx bx-menu'></span></a>
+    <div id="sidr" class="sidr">
+
+        <!-- MAIN NAV LOGO -->
+        <a href="#" id="menu-logo"><img src="" alt=""></a>
+
+        <!-- Music Button  -->
+        <div style="
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  display:flex; 
+  gap: 8px" class="container">
+            <input id="checkbox" name="checkbox" type="checkbox" checked>
+            <label class="label" for="checkbox">
+            </label>
+            <p style="margin-top: 5px; color:#fff"><b>MUSIC</b></p>
+
+        </div>
+
+
+        <!-- MAIN NAV LINKS -->
+        <ul>
+            <li><!-- Admin Button  -->
+                <a href="https://wiredsaver.com/admin/login">
+                    <button class="edit-button">
+                        <i class='bx bx-user-circle' style='color:#ffffff'></i>
+                    </button>
+                </a>
+            </li>
+            <li><a href="#Home"><span class='bx bx-home' undefined></span>Home</a>
+            </li>
+            <li><a href="#Features"><span class='bx bx-category-alt'></span>Features</a>
+            </li>
+            <li><a href="#About"><span class='bx bx-pointer'></span>About</a>
+            </li>
+            <li><a href="#Video"><span class='bx bx-play-circle'></span>Video</a>
+            </li>
+            <li><a href="#Affirmations"><span class='bx bx-message-rounded'></span>Affirmations</a>
+            </li>
+            <li><a href="#Whyredessnce"><span class='bx bx-question-mark'></span>Why RedEssence</a>
+            </li>
+            <li><a href="#Team"><span class='bx bx-user-circle'></span>Our Team</a>
+            </li>
+            <li><a href="#Download"><span class='bx bx-cloud-download'></span>Download</a>
+            </li>
+            <li><a href="#Contact"><span class='bx bx-phone'></span>Contact</a>
+            </li>
+        </ul>
+        <!-- END MAIN NAV LINKS -->
+    </div>
+    <!-- END MAIN NAV -->
+
+    <!-- PAGE LOGO -->
+    <div class="wrap">
+        <div id="logo">
+            <a href="#"><img src="images/logo.png" alt=""> </a>
+        </div>
+    </div>
+    <!-- END PAGE LOGO -->
+
+    <!-- LANDING PAGE CONTENT -->
+    <div id="fullpage">
+
+        <!-- Snow Animation -->
+
+        <div id="nc-main" class="nc-main bg-cover bg-cc">
+
+            <div class="full-wh">
+
+                <!-- STAR ANIMATION -->
+                <div class="bg-animation">
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars3'></div>
+                    <div id='stars4'></div>
+                </div><!-- / STAR ANIMATION -->
+
+            </div>
+        </div>
+        <!-- RIGHT HAND & PHONE MOCK-UP IMAGES -->
+        <div class="wrap">
+            <div class="section-image">
+                <img src="./images/1.jpg" alt="">
+                <!-- Home IMAGE --><img src="./images/1.jpg" alt="">
+                <!-- Features IMAGE --><img src="./images/2.jpg" alt="">
+                <!-- About IMAGE --><img src="./images/3.jpg" alt="">
+                <!-- Video IMAGE --><img src="./images/4.jpg" alt="">
+                <!-- affirmations IMAGE --><img src="./images/5.jpg" alt="">
+                <!-- whyredessnce IMAGE --><img src="./images/6a.jpg" alt="">
+                <!-- Team IMAGE --><img src="./images/7.jpg" alt="">
+                <!-- Download IMAGE --><img src="./images/8.jpg" alt="">
+                <!-- Contact IMAGE --><img src="./images/9.jpg" alt="">
+            </div>
+            <div id="hand"></div>
+        </div>
+        <!-- END RIGHT HAND & PHONE MOCK-UP -->
+
+        <!-- SECTION HOME -->
+        <div class="section " id="section0">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION HOME CONTENT -->
+                    <h1>Elevate your experience with our application <strong>Red</strong>Essence</h1>
+                    <p>Discover exclusive benefits through our unparalleled Application.
+                        <br> Now available on the App Store and Play Store!
+                    </p> <a style="display: flex; align-items: center; justify-content: center;"
+                        href="./apk/RedEssence.apk" class="simple-button"><span
+                            class='bx bx-cloud-download'></span>Download
+                        App</a>
+                </div>
+                <!-- END SECTION HOME CONTENT -->
+
+                <!-- Shop Button  -->
+            </div>
+            <div class="box">
+                <button class="Btn shop" onclick="visitStore(event)">
+                    <i class='bx bxl-shopify' style='color:#000; font-size: 25px;'></i>
+                    <span class="tooltips">VisitStore</span>
+                </button>
+            </div>
+
+        </div>
+        <!-- END SECTION HOME -->
+
+        <!-- SECTION FEATURES -->
+        <div class="section " id="section1">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION FEATURES CONTENT -->
+                    <h2><strong>Amazing</strong> Features</h2>
+                    <p>Embrace a holistic approach to menstrual wellness, addressing physical, emotional, and social
+                        aspects for comprehensive well-being and empowerment throughout the menstrual journey.</p>
+                    <ul class="features">
+                        <li><a class="tooltip" href="#"><span class='bx bx-calendar' style='color:#ff007f'></span> Flow
+                                Track<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bx-calendar'
+                                                style='color:#ff007f'></span>Track menstrual cycles for informed health
+                                            decisions and empowerment.</span></span></span></a> </li>
+                        <li><a class="tooltip" href="#"><span class='bx bxs-truck' style='color:#ff007f'> </span> Cycle
+                                Cart<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bxs-truck'
+                                                style='color:#ff007f'></span>Ease ordering menstrual products online,
+                                            bypassing store trips.</span></span></span></a> </li>
+                        <li><a class="tooltip" href="#"><span class='bx bxs-graduation' style='color:#ff007f'></span>
+                                Mens Edu<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bxs-graduation'
+                                                style='color:#ff007f'></span>Explore diverse menstrual education
+                                            resources, destigmatizing menstruation.</span></span></span></a> </li>
+                        <li><a class="tooltip" href="#"><span class='bx bx-food-menu' style='color:#ff007f'></span>
+                                Period Plates<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bx-food-menu'
+                                                style='color:#ff007f'></span>Access recipes to ease menstrual symptoms,
+                                            offering tailored meal ideas.</span></span></span></a> </li>
+                        <li><a class="tooltip" href="#"><span class='bx bx-dumbbell' style='color:#ff007f'></span>
+                                Yogacise<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bx-dumbbell'
+                                                style='color:#ff007f'></span>Tailored exercise videos for menstrual
+                                            relief and overall well-being.</span></span></span></a> </li>
+                    </ul>
+                    <ul class="features">
+                        <li><a class="tooltip" href="#"><span class='bx bx-ghost' style='color:#ff007f'></span>
+                                Anonymous Community<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bx-ghost'
+                                                style='color:#ff007f'></span>Anonymous community fosters open dialogue
+                                            on menstruation topics.</span></span></span></a> </li>
+                        <li><a class="tooltip" href="#"><span class='bx bx-plus-medical' style='color:#ff007f'></span>
+                                Consultation Hub<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bx-plus-medical'
+                                                style='color:#ff007f'></span>Consultation hub offers personalized advice
+                                            from menstrual health experts.</span></span></span></a> </li>
+                        <li><a class="tooltip" href="#"><span class='bx bx-location-plus' style='color:#ff007f'></span>
+                                Restroom Monitoring<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bx-location-plus'
+                                                style='color:#ff007f'></span>Restroom monitoring system aids users in
+                                            finding clean facilities nearby.</span></span></span></a> </li>
+                        <li><a class="tooltip" href="#"><span class='bx bx-bot' style='color:#ff007f'></span> AI
+                                ChatBot<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bx-bot'
+                                                style='color:#ff007f'></span>AI chatbot offers 24/7 menstrual health
+                                            info, instant and accessible.</span></span></span></a> </li>
+                        <li><a class="tooltip" href="#"><span class='bx bx-music' style='color:#ff007f'></span> Soothing
+                                Melodies<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bx-music'
+                                                style='color:#ff007f'></span>Access soothing playlists to relieve
+                                            menstrual symptoms, share song suggestions.</span></span></span></a> </li>
+                    </ul>
+                    <!-- END SECTION FEATURES CONTENT -->
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION FEATURES -->
+
+        <!-- SECTION ABOUT -->
+        <div class="section" id="section2">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION ABOUT CONTENT -->
+                    <h2>About <strong>Red</strong>Essence</h2>
+                    <div class="tabs tabs-style-linemove">
+                        <!-- TABS LINKS -->
+                        <nav>
+                            <ul>
+                                <li><a href="#section-linemove-1"><span class='bx bx-pencil'
+                                            style='color:#ff007f'></span><span> Design</span></a>
+                                </li>
+
+                                <li><a href="#section-linemove-4"><span class='bx bx-add-to-queue'
+                                            style='color:#ff007f'></span><span> Common problems</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- END TABS LINKS -->
+
+                        <!-- TABS CONTENT -->
+                        <div class="content-wrap">
+
+                            <!-- TAB 1 -->
+                            <section id="section-linemove-1">
+                                <h4><span class='bx bx-bulb' style='color:#ff007f'></span> Good design doesn't date!
+                                </h4>
+                                <p>Experience comprehensive menstrual wellness with our meticulously crafted app,
+                                    tailored to enhance every aspect of your journey, offering exclusive benefits and
+                                    unrivaled convenience.</p>
+                            </section>
+
+                            <!-- TAB 4 -->
+                            <section id="section-linemove-4">
+                                <p>
+                                </p>
+                                <h4>Embrace a holistic approach to menstrual wellness, addressing physical, emotional,
+                                    and social aspects for comprehensive well-being and empowerment throughout the
+                                    menstrual journey.</h4>
+
+
+                                <!-- ... Add more buttons as needed ... -->
+
+                                <div id="popup-container" class="popup-container">
+                                    <span class="close-button" onclick="closePopup()">X</span>
+                                    <div class="video-container">
+                                        <iframe id="youtube-iframe" src="" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+
+                                <ul class="features">
+                                    <li><a class="tooltip play-button" id="popup-button1"
+                                            data-video-id="vU3LmEc-hCI?si=krvar6ePO9IqL0JL"><span
+                                                class='bx bxs-chevrons-right' style='color:#ff007f'></span> Period
+                                            Pain</a> </li>
+                                    <li><a class="tooltip play-button" id="popup-button2"
+                                            data-video-id="DJ7EusKCMWE?si=CNDJbE6-NGGJItMV"><span
+                                                class='bx bxs-chevrons-right' style='color:#ff007f'></span> Irregular
+                                            periods
+                                        </a> </li>
+                                    <li><a class="tooltip play-button" id="popup-button3"
+                                            data-video-id="j1EbdG69Wws?si=x3n4K1nCuWaTaJfM"><span
+                                                class='bx bxs-chevrons-right' style='color:#ff007f'></span> Premenstrual
+                                            syndrome
+                                        </a> </li>
+                                    <li><a class="tooltip play-button" id="popup-button4"
+                                            data-video-id="LIsYbDCMfDc?si=V-5yzPZexFuZOFX2"><span
+                                                class='bx bxs-chevrons-right' style='color:#ff007f'></span> Immediate
+                                            Relief
+                                        </a> </li>
+
+                                </ul>
+                                <ul class="features">
+                                    <li><a class="tooltip play-button" id="popup-button5"
+                                            data-video-id="SSC12rZdU6M?si=6YYAP2nihOLsix-6"><span
+                                                class='bx bxs-chevrons-right' style='color:#ff007f'></span> Period Tips
+                                        </a> </li>
+                                    <li><a class="tooltip play-button" id="popup-button6"
+                                            data-video-id="EcmUzrVb-Vw?si=hhQgoY1LaO5rSdDM"><span
+                                                class='bx bxs-chevrons-right' style='color:#ff007f'></span> Period
+                                            Myths</a> </li>
+                                    <li><a class="tooltip play-button" id="popup-button7"
+                                            data-video-id="5QRo-u5WktA?si=zfeMKqvB82_OFPf7"><span
+                                                class='bx bxs-chevrons-right' style='color:#ff007f'></span> Excessive
+                                            flow
+                                        </a> </li>
+                                    <li><a class="tooltip play-button" id="popup-button8"
+                                            data-video-id="1NEBL7deSHk?si=7FzQfJuvinGymI_U"><span
+                                                class='bx bxs-chevrons-right' style='color:#ff007f'></span> Hormonal
+                                            Imbalance
+                                        </a> </li>
+                                </ul>
+                            </section>
+                        </div>
+                        <!-- END TABS CONTENT -->
+
+                        <!-- END SECTION ABOUT -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION ABOUT -->
+
+
+        <!-- SECTION VIDEO -->
+        <div class="section" id="section3">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION VIDEO CONTENT -->
+                    <h2> <strong>Video</strong> presentation</h2>
+                    <div class="video-presentation">
+                        <iframe src="./video/slider.mp4" width="500" height="281" allowfullscreen=""></iframe>
+                    </div>
+                    <!-- END SECTION VIDEO CONTENT-->
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION VIDEO -->
+
+
+        <!-- SECTION affirmations -->
+        <div class="section" id="section4">
+            <div class="wrap">
+                <div class="fp-tableCell affirmations-content">
+                    <div class="box">
+                        <!-- SECTION affirmations CONTENT -->
+                        <h2><strong>Positive </strong> Affirmations</h2>
+
+                        <!-- CLIENT FEEDBACK 1 -->
+                        <div class="slide" data-anchor="slide1">
+                            <p>It gives me hope that as more people are having conversations about midlife and aging and
+                                menopause and perimenopause, the more we talk about it, the more we erase the stigma.
+                            </p>
+                            <p> <span class="client-name"> <strong> Kathryn G. Schubert</strong> - President and CEO of
+                                    SWHR</span>
+                                <!-- <span class="client-stars"> -->
+                                <!-- <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-half3"></span> <span class="icon flaticon-fivepointed"></span> <span class="icon flaticon-fivepointed"></span> </span> -->
+                            </p>
+                        </div>
+
+                        <!-- CLIENT FEEDBACK 2 -->
+                        <div class="slide" data-anchor="slide2">
+                            <p>I just want women to hear me loud and clear…you are not dirty, you’re not unclean. Your
+                                body is doing things that it can’t control and you need to see someone who knows what
+                                they’re doing.</p>
+                            <p> <span class="client-name"> <strong> Dr. Lauren Streicher</strong> - Professor of
+                                    Obstetrics & Gynecology</span>
+                                <!-- <span class="client-stars"> -->
+                                <!-- <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-fivepointed"></span> </span> -->
+                            </p>
+                        </div>
+
+                        <!-- CLIENT FEEDBACK 3 -->
+                        <div class="slide" data-anchor="slide3">
+                            <p>Women complain about premenstrual syndrome, but I think of it as the only time of the
+                                month that I can be myself.</p>
+                            <p> <span class="client-name"> <strong> Roseanne Barr</strong> - American actor</span>
+                                <!-- <span class="client-stars"> -->
+                                <!-- <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-fivepointed"></span> <span class="icon flaticon-fivepointed"></span> </span> -->
+                            </p>
+                        </div>
+                        <!-- END SECTION affirmations -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION affirmations -->
+
+
+        <!-- SECTION whyredessnce -->
+        <div class="section" id="section5">
+            <div class="wrap">
+                <div class="box">
+                    <div class="fp-tableCell whyredessnce-content">
+                        <!-- SECTION whyredessnce CONTENT -->
+                        <h2>Why <strong>Red</strong>Essence ?</h2>
+                        <ul class="features">
+                            <li><a class="tooltip"><span class='bx bxs-chevrons-right' style='color:#ff007f'></span>
+                                    Inclusive Access and User-Friendly Interface</a> </li>
+                            <li><a class="tooltip"><span class='bx bxs-chevrons-right' style='color:#ff007f'></span>
+                                    Community Building and Empowerment</a> </li>
+                            <li><a class="tooltip"><span class='bx bxs-chevrons-right' style='color:#ff007f'></span>
+                                    Enhanced Privacy and Data Security</a> </li>
+                        </ul>
+                        <!-- END SECTION whyredessnce CONTENT -->
+                    </div>
+
+                </div>
+                <div class="whyredessnce-wrapper">
+
+                    <!-- SECTION whyredessnce IMAGES -->
+                    <div class="slide" id="slide1" data-anchor="slide1"> <img src="./images/6a.jpg" alt=""> </div>
+                    <div class="slide" id="slide2" data-anchor="slide2"> <img src="./images/6b.jpg" alt=""> </div>
+                    <div class="slide" id="slide3" data-anchor="slide3"> <img src="./images/6c.jpg" alt=""> </div>
+                    <div class="slide" id="slide4" data-anchor="slide4"> <img src="./images/6d.jpg" alt=""> </div>
+                    <!-- END SECTION whyredessnce IMAGES -->
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION whyredessnce -->
+
+        <!-- Out Team Page  -->
+        <div class="section" id="section6">
+            <div class="wrap">
+                <div class="box">
+
+                    <section class="section-team">
+                        <h3 class="h3-team"><strong>Our</strong> Team</h3>
+
+                        <div class="team-members">
+                            <div class="team-member-container">
+                                <div class="team-member">
+                                    <img class="img-team" src="./images/deeksha.png" alt="Deeksha K" />
+                                    <div class="overlay">
+                                        <div class="social-icons-team">
+                                            <a class="a-team" href="https://twitter.com/"><i
+                                                    class="bx bxl-twitter"></i></a>
+                                            <a class="a-team" href="https://www.facebook.com/"><i
+                                                    class="bx bxl-facebook"></i></a>
+                                            <a class="a-team" href="https://www.linkedin.com/in/deekshak/"><i
+                                                    class="bx bxl-linkedin"></i></a>
+                                            <a class="a-team" href="https://www.google.com"><i
+                                                    class="bx bx-globe"></i></a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h5><b>Deeksha K</b></h5>
+
+                            </div>
+                            <div class="team-member-container">
+                                <div class="team-member">
+                                    <img class="img-team" src="./images/greeshma.png" alt="Greeshma C Poojary" />
+                                    <div class="overlay">
+                                        <div class="social-icons-team">
+                                            <a class="a-team" href="https://twitter.com/"><i
+                                                    class="bx bxl-twitter"></i></a>
+                                            <a class="a-team" href="https://www.facebook.com/"><i
+                                                    class="bx bxl-facebook"></i></a>
+                                            <a class="a-team"
+                                                href="https://www.linkedin.com/in/greeshma-c-poojary-722199245/"><i
+                                                    class="bx bxl-linkedin"></i></a>
+                                            <a class="a-team" href="https://www.google.com"><i
+                                                    class="bx bx-globe"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5><b>Greeshma C Poojary</b></h5>
+
+                            </div>
+                            <div class="team-member-container">
+                                <div class="team-member">
+                                    <img class="img-team" src="./images/harsharaj.png" alt="Harsharaj B" />
+                                    <div class="overlay">
+                                        <div class="social-icons-team">
+                                            <a class="a-team" href="https://twitter.com/harsharaj_b"><i
+                                                    class="bx bxl-twitter"></i></a>
+                                            <a class="a-team" href="https://www.facebook.com/harsharajb.gowda"><i
+                                                    class="bx bxl-facebook"></i></a>
+                                            <a class="a-team" href="https://www.linkedin.com/in/harsharajb/"><i
+                                                    class="bx bxl-linkedin"></i></a>
+                                            <a class="a-team" href="https://harsharajb.netlify.app/"><i
+                                                    class="bx bx-globe"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5><b>Harsharaj B</b></h5>
+
+                            </div>
+                            <div class="team-member-container">
+                                <div class="team-member">
+                                    <img class="img-team" src="./images/kiran.png" alt="Kiran Kumar V" />
+                                    <div class="overlay">
+                                        <div class="social-icons-team">
+                                            <a class="a-team" href="https://twitter.com/thekirankumar_"><i
+                                                    class="bx bxl-twitter"></i></a>
+                                            <a class="a-team" href="https://www.facebook.com/thekirankumarv/"><i
+                                                    class="bx bxl-facebook"></i></a>
+                                            <a class="a-team" href="https://www.linkedin.com/in/thekirankumarv/"><i
+                                                    class="bx bxl-linkedin"></i></a>
+                                            <a class="a-team" href="https://kirankumarv.netlify.app/"><i
+                                                    class="bx bx-globe"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5><b>Kiran Kumar V</b></h5>
+                            </div>
+                        </div>
+                    </section>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION team -->
+
+
+        <!-- SECTION DOWNLOAD -->
+        <div class="section" id="section7" data-anchor="Download">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION DOWNLOAD CONTENT-->
+                    <h2><strong>Download</strong> the app</h2>
+                    <p>To experience a fully featured RedEssence application.
+                        <br> Now available on the App Store and Play Store!
+                    </p>
+
+                    <!-- DOWNLOAD APPSTORE-->
+                    <a style="display: flex; align-items: center; justify-content: center;"
+                        href="https://launchingsoon.netlify.app/" class="simple-button appstore-button"><span
+                            class='bx bxl-apple'></span>App Store</a>
+                    <!-- DOWNLOAD PLAYSTORE-->
+                    <a style="display: flex; align-items: center; justify-content: center;"
+                        href="https://launchingsoon.netlify.app/" class="simple-button playstore-button"><span
+                            class='bx bxl-play-store'></span>Play
+                        Store</a>
+
+                    <!-- END SECTION DOWNLOAD -->
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION DOWNLOAD -->
+
+
+        <!-- SECTION CONTACT -->
+        <div class="section" id="section8">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION CONTACT CONTENT-->
+                    <h2><strong>Get</strong> in touch</h2>
+                    <ul class="features">
+                        <li><a class="tooltip" href="#"><span class='bx bxs-phone' style='color:#ff007f'></span> Call Us
+                                now<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bxs-phone'
+                                                style='color:#ff007f'></span>Support: +91 9876543219 <br>Marketing: +91
+                                            9764258975 <br>Manager: +91 9851427054 </span></span></span></a> </li>
+                        <li><span class="tooltip"><span class='bx bxs-map' style='color:#ff007f'></span> See our
+                                location<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bxs-map'
+                                                style='color:#ff007f'></span>AJ Institute of Engineering & Technology,
+                                            NH-66, Kottara Chowki, Mangaluru, Karnataka 575006
+                                            <br><a
+                                                href="https://www.google.com/maps/dir/AJ+Institute+of+Engineering+%26+Technology,+Bangrakuloor,+Kodikal,+Mangaluru,+Karnataka/AJ+Institute+of+Engineering+%26+Technology,+NH-66,+Kottara+Chowki,+Mangaluru,+Karnataka+575006/@12.9152772,74.7875661,13z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba35a7940000001:0x37b1d2f42900de85!2m2!1d74.828766!2d12.9151968!1m5!1m1!1s0x3ba35a7940000001:0x37b1d2f42900de85!2m2!1d74.828766!2d12.9151968?entry=ttu"
+                                                target="_blank">View Map</a>
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </li>
+                    </ul>
+                    <ul class="features">
+                        <li><span class="tooltip"><span class='bx bxs-pointer' style='color:#ff007f'></span> Official
+                                Website <span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bxs-pointer'
+                                                style='color:#ff007f'></span>
+                                            <br> <a href="https://www.google.com" target="_blank">www.google.com</a>
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </li>
+                        <li><a class="tooltip" href="#"><span class='bx bxs-envelope' style='color:#ff007f'></span> Send
+                                Email<span class="tooltip-content"><span class="tooltip-text"><span
+                                            class="tooltip-inner"><span class='bx bxs-envelope'
+                                                style='color:#ff007f'></span>contact@mail.com<br>office@mail.com<br>support@mail.com</span></span></span></a>
+                        </li>
+                    </ul>
+
+                    <!-- SECTION CONTACT FORM-->
+
+                    <form action="mailto:thekirankumarv@gmail.com" method="post" id="contact-form" enctype="text/plain">
+                        <input type="text" name="name" placeholder="Name" pattern="[A-Za-z]+"
+                            title="Please enter a valid name (letters only)" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="tel" name="phone" placeholder="Phone" pattern="[0-9]{10}"
+                            title="Please enter a 10-digit phone number" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                        <input type="submit" value="Send" class="btn" style="margin-top: 10px;">
+                        <div id="success"></div>
+                    </form>
+
+
+                    <!-- END SECTION CONTACT -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION CONTACT -->
+
+
+    <!-- SOCIAL ICONS -->
+    <div class="wrap">
+        <div id="social-icons">
+            <ul>
+                <li><a href="http://www.facebook.com"><i class='bx bxl-facebook-circle bx-tada-hover'></i></a> </li>
+                <li><a href="http://www.twitter.com"><i class='bx bxl-twitter bx-tada-hover'></i></a> </li>
+                <li><a href="http:/www.instagram.com"><i class='bx bxl-instagram-alt bx-tada-hover'></i></a> </li>
+                <li><a href="https://www.youtube.com"><i class='bx bxl-youtube bx-tada-hover' undefined></i></a> </li>
+                <li><a href="#Download"><i class='bx bxl-play-store bx-tada-hover'></i></a> </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- END SOCIAL ICONS -->
+
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.easings.min.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/cbpFWTabs.js"></script>
+    <script src="js/jquery.sidr.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!--<script type="text/javascript" src="js/video.js"></script> -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-60776023-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</body>
+
+</html>
